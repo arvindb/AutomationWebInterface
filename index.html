@@ -1,0 +1,61 @@
+<head>
+
+    <title>Garage Opener App</title>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="/custom_icon.png">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="remote.js"></script>
+</head>
+<style>
+    * {
+        -webkit-border-radius: 4px !important;
+        -moz-border-radius: 4px !important;
+        border-radius: 4px !important;
+        -webkit-border-top: 4px !important;
+        -moz-border-top: 4px !important;
+        border-top: 4px !important;
+        -webkit-border-bottom: 4px !important;
+        -moz-border-bottom: 4px !important;
+        border-bottom: 4px !important;
+    }    
+    .btn {
+        margin: 5px;
+    }  
+    .btn-wide {
+        width: 247px;
+        height: 77px;
+        padding: 25px 40px;
+        font-size: 22px;
+        line-height: normal;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+    }
+    body {
+    margin-top: 2cm;
+    background-color: #EEE;
+    }
+</style>
+<body>
+    <div class= "container">
+    <div class = "row">
+      <div class = "col-md-2"></div>
+      <div class = "col-md-8 text-center" > 
+        <h1>Garage Door Opener</h1> 
+        <div class="control-group">
+          <div class="btn-group-vertical">
+           <button class="btn btn-xs" style="visibility:hidden;"></button>
+           <button id="open" type="submit" class="btn btn-primary btn-wide button" name="open" value="open" >Open | Close</button>
+          </div>
+        </div> 
+      </div>
+      <div class = "col-md-2"></div>
+    </div>
+  </div>
+<body>
+
+    
